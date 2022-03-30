@@ -55,6 +55,6 @@
                                         document.getElementById('tbody').appendChild(tr)}
           }
       }
-      api.open('GET', 'http://10.10.0.17/busca/consulta.php?q='+cep.value)
+      api.open('GET', 'http://localhost/busca/consulta.php?q='+cep.value)
       api.send()
   }
